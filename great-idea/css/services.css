@@ -279,12 +279,22 @@ header nav a {
   font-size: 16px;
 }
 
-.bottom-group-border {
-  border-bottom: 1px solid black;
+.bottom-section {
+  border: 5px solid orangered;
+  width: 980px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.bottom-section {
-  /* border: 5px solid orangered; */
-  width: 1140px;
-  margin: 0 auto;
+.bottom-group {
+  border: 3px solid hotpink;
+  margin-top: 45px;
+}
+
+.bottom-group h1 {
+  font-size: 18px;
+}
+
+.bottom-group img {
 }
