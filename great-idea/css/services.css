@@ -247,12 +247,12 @@ header nav a {
 }
 
 .middle-group div {
-  border: 3px solid lime;
-  /* border: 1px solid black; */
+  /* border: 3px solid lime; */
+  border: 1px solid black;
   width: 465px;
   height: 276px;
 
-  background-color: lightgray;
+  /* background-color: lightgray; */
   margin-top: 45px;
   margin-left: 20px;
   margin-right: 20px;
@@ -261,7 +261,7 @@ header nav a {
 }
 
 .middle-section .middle-group div p {
-  background-color: hotpink;
+  /* background-color: hotpink; */
   display: inline-block;
 }
 
@@ -280,7 +280,7 @@ header nav a {
 }
 
 .bottom-section {
-  border: 5px solid orangered;
+  /* border: 5px solid orangered; */
   width: 980px;
   margin: 50px auto;
   display: flex;
@@ -288,12 +288,26 @@ header nav a {
 }
 
 .bottom-group {
-  border: 3px solid hotpink;
-  margin-top: 45px;
+  /* border: 3px solid hotpink; */
+  margin: 45px auto;
 }
 
 .bottom-group h1 {
   font-size: 18px;
+}
+
+.bottom-group p {
+  width: 300px;
+}
+
+.bottom-group ul {
+  list-style: circle;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.bottom-group ul li {
+  margin: 20px;
 }
 
 .bottom-group img {
