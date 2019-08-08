@@ -86,7 +86,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -150,7 +150,7 @@ h5 {
 }
 
 * {
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 
 header {
@@ -203,23 +203,27 @@ header nav a {
 }
 
 .top {
+  /* border: 5px solid lime; */
   width: 1140px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid lime;
 }
 
-.top .top-paragraph {
-  background-color: green;
-
+.top img {
   width: 980px;
 }
 
 .top .top-paragraph {
+  /* background-color: green; */
+
+  border-bottom: 1px solid black;
   margin-top: 40px;
+  height: 150px;
+  width: 980px;
 }
+
 .top .top-paragraph div h1 {
   font-size: 30px;
 }
@@ -229,7 +233,7 @@ header nav a {
 }
 
 .middle-section {
-  border: 5px solid magenta;
+  /* border: 5px solid magenta; */
   width: 1140px;
   margin: 0 auto;
   display: flex;
@@ -237,19 +241,52 @@ header nav a {
 }
 
 .middle-group {
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
   display: flex;
-  margin: 20px auto;
+  margin: 0px auto;
 }
 
 .middle-group div {
   width: 465px;
   height: 276px;
-  margin: 20px auto;
-  margin-left: 30px;
+  border: 1px solid black;
+  /* background-color: lightgray; */
+  margin: 40px auto;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 20px;
   font-size: 20px;
-  background-color: lightgray;
+}
+
+.middle-section .middle-group div p {
+  background-color: hotpink;
+  display: inline-block;
+}
+
+.middle-section .middle-group div a {
+  /* border: 1px solid black;
+  background-color: greenyellow;
+  display: inline-block;
+  height: 40px;
+  width: 160px;
+  border-radius: 2%;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 30px; */
+
+  border: solid black 1px;
+  border-radius: 8px;
+  color: black;
+  margin-top: 30px;
+  height: 40px;
+  width: 155px;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .bottom-section {
