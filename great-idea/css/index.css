@@ -188,10 +188,14 @@ header nav a {
   /* border: solid green; */
   height: 50%;
   color: lightgray;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
-  font-family: Helvetica, sans-serif;
+  font-family: "Play", sans-serif;
   position: relative;
+}
+
+header nav a:hover {
+  color: black;
 }
 
 .logo {
@@ -259,7 +263,7 @@ header nav a {
   border: 1px black solid;
   position: relative;
   text-decoration: none;
-  padding: 10px;
+  padding: 8px;
   display: block;
   width: 193px;
   height: 36px;
@@ -268,6 +272,11 @@ header nav a {
   left: 63px;
   top: 3px;
   box-sizing: border-box;
+}
+
+.get-started:hover {
+  background-color: black;
+  color: white;
 }
 
 .top-div img {

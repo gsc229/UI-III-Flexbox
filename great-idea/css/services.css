@@ -191,10 +191,14 @@ header nav a {
   /* border: solid green; */
   height: 50%;
   color: lightgray;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
-  font-family: Helvetica, sans-serif;
+  font-family: "Play", sans-serif;
   position: relative;
+}
+
+header nav a:hover {
+  color: black;
 }
 
 .logo {
@@ -281,6 +285,11 @@ header nav a {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.middle-section .middle-group div a:hover {
+  background-color: black;
+  color: white;
 }
 
 .bottom-section {
