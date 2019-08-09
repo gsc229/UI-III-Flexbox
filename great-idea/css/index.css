@@ -150,6 +150,9 @@ h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+p {
+  font-family: "Dosis", sans-serif;
+}
 
 header {
   /* border: solid yellow; */
